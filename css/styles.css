@@ -386,6 +386,7 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
 .item-social-logo {
     width: 40px;
     height: 40px;
+    gap: 24px;
 }
 .icon {
     display: flex;
