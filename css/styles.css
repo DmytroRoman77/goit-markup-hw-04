@@ -371,8 +371,6 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     margin-bottom: 16px;
 }
 .footer-social-container {
-    display: flex;
-    align-items: flex-start;
     gap: 16px;
 }
 .title-media-footer {
@@ -383,15 +381,18 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     letter-spacing: 0.32px;
     margin-bottom: 16px;
 }
-.list-social-logo-footer {
+.list-social-logo {
     display: flex;
     gap: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
-.item-social-logo-footer {
+.item-social-logo {
     width: 40px;
     height: 40px;
 }
-.icon-footer {
+.icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -404,7 +405,7 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
 .icon-fill {
     fill: #f4f4fd;
 }
-.item-social-logo-footer:hover .icon-footer ,
-.item-social-logo-footer:focus .icon-footer {
+.item-social-logo:hover .icon ,
+.item-social-logo:focus .icon {
     background-color: #31d0aa;
 }
