@@ -371,12 +371,12 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     margin-bottom: 16px;
 }
 .list-social-logo-footer {
-    width: 40px;
-    height: 40px;
-}
-.item-social-logo-footer {
     display: flex;
     gap: 16px;
+}
+.item-social-logo-footer {
+    width: 40px;
+    height: 40px;
 }
 .icon-footer {
     display: flex;
